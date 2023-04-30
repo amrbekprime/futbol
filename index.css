@@ -1,0 +1,615 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    src: url(./LibreFranklin-Regular.ttf);
+}
+
+header {
+    width: 100%;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 9.3%;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    color: #6C6C6C;
+}
+
+.cart {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-transform: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+section {
+    width: 100%;
+    height: 708px;
+    background-image: url(./media/bg1.png);
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-wrap {
+    min-width: 1152px;
+    height: 500px;
+    display: flex;
+}
+
+.sectionbox {
+    position: relative;
+    min-width: 576px;
+    max-width: 784px;
+    min-height: 305px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionbox p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+    margin-bottom: 12px;
+    font-family: 'Poppins2';
+}
+
+.sectionbox h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+    font-family: 'Poppins2';
+}
+
+.sectionbox h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+    margin-top: 14px;
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+}
+
+.sectionbox button {
+    width: 200px;
+    height: 62px;
+    cursor: pointer;
+    border: none;
+    background: #AC1313;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: 'Poppins2';
+}
+
+.section-wrap .img {
+    position: absolute;
+    left: 674px;
+    top: 240px;
+}
+
+main {
+    width: 100%;
+    height: 969px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-wrap {
+    width: 1200px;
+    position: relative;
+    height: 729px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-wrap p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+    font-family: 'Poppins2';
+}
+
+.main-wrap h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Poppins2';
+    margin-top: 10px;
+}
+
+.main-wrap::before {
+    position: absolute;
+    content: 'Hand Craft Pottery';
+    width: 213px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    left: -185px;
+    top: 300px;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #DBDBDB;
+    transform: rotate(-90deg);
+}
+.main-img {
+    margin-top: 60px;
+    display: flex;
+    width: 1172px;
+    height: 240px;
+    justify-content: space-between;
+}
+
+.main-wrt {
+    display: flex;
+    margin-top: 90px;
+    gap: 140px;
+}
+
+.main-wrt .mainbox {
+    width: 510px;
+    height: 222px;
+}
+
+.mainbox h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    color: #000000;
+    font-family: 'Poppins2';
+    margin-bottom: 25px;
+}
+
+.mainbox h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;
+    font-family: 'Libre Franklin';
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(./Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: 'Poppins2';
+    src: url(./Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(./Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family:'Libre Franklin' ;
+    src: url(./Libre_Franklin/LibreFranklin-VariableFont_wght.ttf);
+}
+
+.all1 {
+    width: 100%;
+    height: 516px;
+    padding: 20% 10%;
+    display: flex;
+    gap: 86px;
+}
+
+.all1 .box1 {
+    width: 500px;
+    height: 220px;
+    background-color: #F5F5F5;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all1 .box1 img {
+    position: absolute;
+    width: 250px;
+    height: 500px;
+}
+
+.all1 .box2 {
+    width: 500px;
+    height: 220px;
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.all1 .box2 b {
+    font-family: "Poppins2";
+    font-size: 24px;
+}
+
+.all1 .box2 p {
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.all1 .box2 h1 {
+    font-family: "Poppins2";
+    font-size: 14px;
+}
+
+.all2 {
+    width: 100%;
+    height: 516px;
+    padding: 20% 10%;
+    display: flex;
+    gap: 86px;
+}
+
+.all2 .box2 {
+    width: 500px;
+    height: 220px;
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.all2 .box2 b {
+    font-family: "Poppins2";
+    font-size: 24px;
+}
+
+.all2 .box2 p {
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.all2 .box2 h1 {
+    font-family: "Poppins2";
+    font-size: 14px;
+}
+
+.all2 .box1 {
+    width: 500px;
+    height: 220px;
+    background-color: #F5F5F5;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all1 .box2 img {
+    position: absolute;
+    width: 250px;
+    height: 500px;
+}
+
+.all3 {
+    width: 100%;
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 10%;
+    gap: 20px;
+    font-family: "Poppins";
+}
+
+.all3 p {
+    font-family: "Poppins2";
+    font-size: 14px;
+    color: #D77474;
+    text-transform: uppercase;
+}
+
+.all3 h1 {
+    font-family: "Poppins2";
+    font-size: 40px;
+    columns: #0000;
+}
+
+.all3 .boxes {
+    display: flex;
+    gap: 20px;
+}
+
+.all3 .boxes .box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid grey;
+}
+
+.all3 button {
+    width: 214px;
+    height: 62px;
+    padding: 20px 30px;
+    background-color:
+        #AC1313;
+    color: #fff;
+    margin-top: 60px;
+    border-color: #AC1313;
+    cursor: pointer;
+}
+.all8{
+    width: 100%;
+    height: 471px;
+    padding-top: 8%;
+    padding-left: 10%;
+    background-image: url(./media/IMAGE.jpg);
+    background-size: cover;
+}
+.all8 h1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #D77474;
+}
+.all8 h2{
+    font-family: 'Poppins2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+    margin-top: 7px;
+}
+.all8 p{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6C6C;
+    width: 471px;
+    margin-top: 13px;
+}
+.all8 button{
+    width: 195px;
+    height: 62px;
+    background: #AC1313;
+    border-radius: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.all4{
+    width: 100%;
+    height: 686px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 121px;
+    padding-bottom: 162px;
+}
+.all4 .img1{
+width: 80px;
+height: 80px;
+}
+.all4 h1{
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+    margin-top: 40px;
+}
+.all4 h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+    margin-top: 8px;
+}
+.all4 input{
+    padding: 12px;
+    width: 320px;
+    height: 45px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A1A1A1;
+    border: 1px solid #EBEBEB;
+    border-radius: 0px;
+}
+.all4 .form{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.all4 .form button{
+    width: 175px;
+    height: 45px;
+    cursor: pointer;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    background: #000000;
+    border-radius: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+.all4 p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #A1A1A1;
+}
+.all5{
+    width: 100%;
+    height: 526px;
+    padding-top: 107px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all5 img{
+    width: 109px;
+    height: 40px;
+}
+.all5 p{
+    width: 340px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6C6C6C;
+    margin-top: 30px;
+}
+.all5 .boxes{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+.all5 .boxes .box{
+    width: 200px;
+    height: 222px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.all5 .boxes .box img{
+    width: 40px;
+    height: 40px;
+
+}
+.all5 .boxes .box h1{
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 10px;
+}
+.all5 .boxes .box p{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #6C6C6C;
+    margin-top: 20px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(219, 219, 219, 0.1);
+    border-radius: 0px;
+}
+.footer .span1{
+font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: right;
+    color: #6C6C6C;
+    margin-left: 5px;
+}
+.footer .span2{
+font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: right;
+    color: #000000;
+    margin-left: 5px;
+}
